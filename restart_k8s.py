@@ -5,7 +5,7 @@ from datetime import datetime
 #Load Kubernetes configuration (assume access to kubeconfig)
 config.load_kube_config()
 
-#(config_file="/Users/ahudnall/.kube/config")
+#(config_file="/Users/.kube/config")
 
 #create Kubernetes API Client
 v1 = client.CoreV1Api()
