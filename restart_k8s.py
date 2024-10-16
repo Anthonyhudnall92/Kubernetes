@@ -38,6 +38,6 @@ for pod in pods.items:
 
 #Create a DataFrame and export to Excel 
 df = pd.DataFrame(data)
-output_filename ="pbmm_container_restarts.xlsx"
+output_filename ="container_restarts.xlsx"
 df.to_excel(output_filename, index=False)
 print(f"Data exported successfully to {output_filename}")
